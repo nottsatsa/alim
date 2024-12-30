@@ -382,19 +382,80 @@
 }
 .tabpanel_gap {
   display: flex;
-  flex-direction: row;
   gap: 15px;
-  width: fit-content;
-  animation: scroll;
-  background-position: center;
+  width: 100vw;
+  overflow-x: auto;
 }
 .tabpanel {
   height: 667px;
-  width: 1250px;
+  min-width: 1250px;
   background-position: center;
 }
+.tabpanel_gap ::-webkit-scrollbar {
+  width: 0;
+}
+#section_neg {
+  width: 100vw;
+  height: 292px;
+  display: flex;
+}
+.mini {
+  min-width: 417px;
+  height: 236px;
+  position: relative;
+}
+.mini_text {
+  display: flex;
+  height: 18px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.224px;
+}
+.door {
+  padding-top: 198px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.zuragtai {
+  padding-top: 20px;
+  padding-left: 15px;
+  width: 196px;
+  height: 196px;
+  border-radius: 8px;
+  display: flex;
+}
+.bulan_logo {
+  position: absolute;
+  right: 15px;
+  bottom: 23px;
+  display: flex;
+}
+.zuragtai_text {
+  position: absolute;
+  left: 226px;
+  top: 109px;
+}
 .over-hidden {
-  overflow: scroll 5s linear infinite;
+  overflow: scroll;
+}
+.container {
+  display: flex;
+  gap: 15px;
+  width: 100vw;
+  height: fit-content;
+  animation: scroll 25s linear infinite;
+}
+.container:hover {
+  animation-play-state: paused;
 }
 @keyframes scroll {
   0% {
