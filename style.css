@@ -465,3 +465,96 @@
     transform: translateX(-100%);
   }
 }
+#store {
+  display: flex;
+  flex-direction: row;
+  height: 58px;
+  width: fit-content;
+  padding: 77px 38.53px 61px 140px;
+  align-items: flex-start;
+  gap: 4.23px;
+  flex-shrink: 0;
+}
+#st {
+  font-family: "Helvetica Neue";
+  font-size: 43.875px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.01px; /* 118.541% */
+  letter-spacing: -0.144px;
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#gift {
+  color: #6e6e73;
+  font-family: "Helvetica Neue";
+  font-size: 43.875px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.01px; /* 118.541% */
+  letter-spacing: -0.144px;
+}
+.divgurav {
+  display: flex;
+  justify-content: space-between;
+}
+.deerdoor {
+  display: flex;
+  flex-direction: column;
+}
+.need {
+  display: flex;
+  width: 140.56px;
+  height: 20px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.224px;
+}
+.hajuudah {
+  display: flex;
+  align-items: center;
+  padding-right: 130px;
+  justify-content: center;
+  flex-direction: column;
+}
+.items {
+  display: flex;
+  width: 100vw;
+  height: 174px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 184px 40px 140px;
+}
+.divlist {
+  display: flex;
+  width: 136px;
+  height: 148px;
+  padding: 18px 8px 16px 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.items_text {
+  display: flex;
+  height: 16px;
+  flex-direction: column;
+  justify-content: center;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 13.891px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 143.982% */
+  letter-spacing: -0.224px;
+}
