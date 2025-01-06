@@ -680,3 +680,27 @@
   border-radius: 18px;
   box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
 }
+.cards_two_mini {
+  width: 313px;
+  height: 500px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.mini_pic {
+  width: 230px;
+  height: 230px;
+  padding-top: 71px;
+  padding-left: 41.5px;
+}
+.mini_huren {
+  display: flex;
+  padding-left: 30px;
+  color: #b64400;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: -0.12px;
+}
